@@ -1,25 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import SimpleCard from '../SimpleCard';
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <SimpleCard
+        title="React Simple Card"
+        description="This is a simple React card component."
+        imageUrl="https://th.bing.com/th/id/OIP.lincz0LOB_wjb4sz6hmyVwHaE8?w=4522&h=3015&rs=1&pid=ImgDetMain"
+      />
     </div>
   );
-}
+};
 
 export default App;
