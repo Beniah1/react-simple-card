@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import Title from "../react-simple-card/Title";
-import Description from "../react-simple-card/Description";
-import Image from "../react-simple-card/Imag";
+import Title from "./Title";
+import Description from "./Description";
+import Image from "./Imag";
 
 class SimpleCard extends Component {
   render() {

@@ -1,5 +1,5 @@
-import React from 'react';
-import SimpleCard from '../SimpleCard';
+import React from "react";
+import SimpleCard from "./SimpleCard";
 
 const App = () => {
   return (
