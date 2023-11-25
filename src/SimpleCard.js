@@ -1,23 +1,35 @@
-import React from 'react';
-import Title from './Title';
-import Description from './Description';
-import Image from './Imag';
-import '../src/simplecard.css'; // Import the CSS file
+import React from "react";
+import Title from "./Title";
+import Description from "./Description";
+import Image from "./Imag";
+import "../src/simplecard.css"; // Import the CSS file
 
 const SimpleCard = () => {
   return (
-    <div className="simple-card">
-      <div className="text1">
-        <div className="img1">
-          <Image url="pics/frontpage.png" alt="" width="180" />
-        </div>
-        <Title text="Billy Gates" /> {/* Use the Title component */}
-        <h2 className="text-h2">Amazoni su</h2>
-        <Description text="I am Amazon su" /> {/* Use the Description component */}
-        <p className="text-p2">
-          Lorem ipsum dolor,sit amet consectetur adip isicing elit.
+    <div className="container-main">
+      <div className="container">
+        <Image url="image.jpg" />
+        <span className="image">
+          <img
+            src="https://img.freepik.com/free-photo/psychedelic-portrait-collage_23-2149303459.jpg?w=740&t=st=1700905124~exp=1700905724~hmac=8dc85dc4b77f324f0fd1850ea5abb7d89a48f113f474e929390224f981a09c62"
+            alt="man"
+            width={200}
+          ></img>
+
+        </span>
+        <Title title="Card title" />
+        <Description description="Card description" />
+        <div className="text">
+        <p> Hello, <span className="color">My nam is Culaid</span></p>
+        <h1 className="text1">Zum 
+        <span className="color">Nillerzi</span></h1>
+        <p className="text3">I am a Web Developer</p>
+        <p className="text2">
+          lorem sonfe founvwoe novonv on dson owno vdwod nownv oneo fosn 
         </p>
-        <button className="btnn">HOWDIY</button>
+        <button className="btnn">uiwnf dine</button>
+        </div>
+        <img src="" alt=""></img>
       </div>
     </div>
   );
